@@ -62,6 +62,9 @@ transformer-from-scratch/
   difference between a CPU build and a CUDA-enabled PyTorch build.
 - **Do:** Record the operating system, Python version, available accelerator,
   and memory. Check the compute limits before selecting a model size.
+- **Build:** Run [`scripts/system_info.py`](./scripts/system_info.py) and
+  complete the [Phase 1.1 hands-on lesson](./docs/phase-1.1.md), including its
+  hardware inventory and device-selection explanation.
 - **Verify:** Explain which device PyTorch will use and why.
 
 ### 1.2 Create the repository
